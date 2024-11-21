@@ -129,15 +129,15 @@
           <form id="contact__form" onsubmit="contact(event)">
             <div class="form__item">
               <label class="form__item--label" for="name">Name</label>
-              <input class="input" name="user_name" type="text" >
+              <input class="input" name="user_name" type="text" required>
             </div>
             <div class="form__item">
               <label class="form__item--label" for="email">Email</label>
-              <input class="input" name="user_name" type="email" ></input>
+              <input class="input" name="user_name" type="email" required></input>
             </div>
             <div class="form__item">
               <label class="form__item--label" for="message">Message</label>
-              <textarea class="input" name="user_name" type="text" ></textarea>
+              <textarea class="input" name="user_name" type="text" required></textarea>
             </div>
             <button id="contact__submit" class="form__submit">Send it my way</button>
           </form>
@@ -169,9 +169,9 @@
             <li class="project">
               <div class="project__wrapper">
                 <img
-                  src="./assets/blinker mockup.png"
-                  class="project__img"
-                  alt=""
+                src="./assets/blinker mockup.png"
+                class="project__img"
+                alt=""
                 />
                 <div class="project__wrapper--bg"></div>
                 <div class="project__description">

@@ -562,7 +562,7 @@ PROJECTS
 }
 
 .project__description--sub-title {
-  margin: 8px;
+  margin: 8px 0;
 }
 
 .project__description--link {
